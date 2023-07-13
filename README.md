@@ -20,6 +20,12 @@ GLOBAL OPTIONS:
 ./remotejs -u [URL]                                     # 打开一个浏览器，并加载指定url
 ./remotejs --remote-debug-address "ws://127.0.0.1:9222" # 指定一个远程浏览器(需要目标开remote-debugger-port)
 
+# 调用方法
+请求 `curl -X POST "http://127.0.0.1:8088/remote" -d "eval=myMask.target.id"`
+响应 
+`{"type":"string","value":"ext-comp-1009"}`
+
+
 # 其他看 --help
 ```
 
