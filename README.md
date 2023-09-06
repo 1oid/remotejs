@@ -1,5 +1,6 @@
 # remotejs
-remote execute js when debugger.paused
+remote execute js when debugger.paused (use CDP)
+基于CDP实现的远程JS debug工具
 
 ## example
 ```shell
